@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=JetBrains+Mono:wght@500;700&display=swap');
+
+:root {
+  --rosa: #FC3B7F;
+  --creme: #FEF1CF;
+  --azul: #0032A8;
+  --tinta: #001859;
+  --suave: #3b5096;
+  --linha: #c6d3f8;
+  --gelo: #FEF1CF;
+  --papel: #ffffff;
+  --fonte: 'Bricolage Grotesque', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, monospace;
+  --ease: cubic-bezier(.2, .8, .2, 1);
+}
+
+body { margin: 0; background: var(--azul); color: var(--tinta); font-family: var(--fonte); }
+.malha { background-color: var(--azul); background-image: linear-gradient(rgba(254,241,207,.1) 1px, transparent 1px), linear-gradient(90deg, rgba(254,241,207,.1) 1px, transparent 1px); background-size: 44px 44px; }
+.btn { border-radius: 999px; font-weight: 700; cursor: pointer; padding: .6rem 1.25rem; border: 1.5px solid transparent; }
+.btn--rosa { background: var(--rosa); color: #fff; }
+.btn--creme { background: var(--creme); color: var(--azul); }
+.btn--linha { background: transparent; border-color: var(--linha); color: var(--tinta); }
+.btn--contorno { background: transparent; border-color: rgba(254,241,207,.55); color: var(--creme); }
