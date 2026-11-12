@@ -11,6 +11,15 @@ Portal de eventos desenvolvido em Vue 3. Permite criar conta, fazer login, publi
 - Tema claro e escuro automático
 - Dados salvos no navegador com IndexedDB
 
+## Ideias para futuro:
+X - Quero tranformar em um app para ios e android
+X - Divulgar eventos por ele 
+X - Abrir vaga para comentarios
+X - Adicionar fotos dos perfils, 
+X - Criadores de festas com mais likes
+
+
+
 ## Tecnologias
 
 - Vue 3 (Composition API, `<script setup>`)
@@ -42,5 +51,4 @@ src/
 ```
 
 ## Autor
-
-Seu Nome, Curso ADS
+Marcus Gabriel Nunes dos Santos, Curso ADS
