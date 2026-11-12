@@ -30,7 +30,7 @@ X - Criadores de festas com mais likes
 ## Como rodar
 
 ```bash
-git clone <URL-DO-SEU-REPOSITORIO>
+git clone <https://github.com/gabszkkkjj/DAWN-PROJETO-DE-EVENTOS>
 cd dawn-app
 npm install
 npm run dev
